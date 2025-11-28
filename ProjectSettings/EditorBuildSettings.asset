@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Memory Game/Memory_Start.unity
+    guid: 3af0fb164e14d734e91d940577567a55
+  - enabled: 1
+    path: Assets/Scenes/Memory Game/Memory Card Game.unity
+    guid: 9a6f03d1e4c585445a15382d20e7c852
   m_configObjects: {}
