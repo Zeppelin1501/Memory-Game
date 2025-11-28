@@ -12,13 +12,6 @@ This project was developed under strict conditions: no third-party assets, meani
 Custom flip, match, mismatch, and reset animations without using any third-party tools.  
 The system allows continuous card flipping without forcing players to wait for comparison animations.
 
-### Save / Load System  
-Game progress is persisted between sessions, including:  
-- Revealed cards  
-- Matched cards  
-- Score  
-- Move count  
-
 ### Scoring System  
 Tracks player performance based on:  
 - Matches  
