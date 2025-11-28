@@ -28,6 +28,8 @@ namespace DG.Tweening
         /// <param name="endValue">The end value to reach</param><param name="duration">The duration of the tween</param>
         public static TweenerCore<float, float, FloatOptions> DOFade(this CanvasGroup target, float endValue, float duration)
         {
+            if (endValue < 0) endValue = 0;
+            else if (endValue > 1) endValue = 1;
             TweenerCore<float, float, FloatOptions> t = DOTween.To(() => target.alpha, x => target.alpha = x, endValue, duration);
             t.SetTarget(target);
             return t;
